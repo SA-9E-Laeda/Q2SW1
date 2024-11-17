@@ -1,0 +1,27 @@
+body{
+	background-color: red;
+}
+h1{
+	text-align: center;
+	background-color: green;
+}
+
+th{
+	text-align: center;
+}
+td{
+	text-align: center;
+}
+
+.animate__animated.animate__flash{
+  animation: flash;
+  animation-duration: 4s;
+}
+table, th, td {
+  border: 2px solid black;
+  vertical-align: middle;
+}
+
+div{
+	transition-timing-function: ease-out;
+}
